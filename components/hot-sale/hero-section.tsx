@@ -65,7 +65,7 @@ export function HeroSection() {
           
           {/* Main heading */}
           <h1 className="mb-6 max-w-5xl text-balance text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-7xl">
-            <span className="block bg-gradient-to-r from-white via-[#B8C9E0] to-[#0050C3] bg-clip-text text-transparent">
+            <span className="block pb-2 bg-gradient-to-r from-white via-[#B8C9E0] to-[#0050C3] bg-clip-text text-transparent">
               Hot Sale Argentina 2026
             </span>
           </h1>
