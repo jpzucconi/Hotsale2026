@@ -9,7 +9,7 @@ export function MindsetSection() {
             El error más común: arrancar por el descuento
           </h2>
           <p className="mx-auto max-w-3xl text-[#B8C9E0]">
-            <strong className="text-[#00A3E0]">El descuento puro es una ilusión</strong>. Lo que convierte es: propuesta de valor clara + cuotas accesibles + envío gratuito + percepción de evento exclusivo. El descuento promedio real en Hot Sale 2025 fue del 0,7% al 2,9% en muchas categorías.
+            <strong className="text-[#00A3E0]">El descuento puro es una ilusión</strong>. Lo que convierte es: propuesta de valor clara + cuotas accesibles + envío gratuito + percepción de evento exclusivo.
           </p>
         </div>
 
@@ -39,21 +39,6 @@ export function MindsetSection() {
           </div>
         </div>
 
-        <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div className="rounded-xl border border-[#0050C3]/20 bg-[#12203A] p-5 text-center">
-            <p className="text-3xl font-bold text-[#00A3E0]">0,7–2,9%</p>
-            <p className="mt-1 text-sm text-[#6B7F99]">Descuento real promedio HS 2025</p>
-          </div>
-          <div className="rounded-xl border border-[#0050C3]/20 bg-[#12203A] p-5 text-center">
-            <p className="text-3xl font-bold text-[#00A3E0]">54%</p>
-            <p className="mt-1 text-sm text-[#6B7F99]">Transacciones en cuotas sin interés</p>
-          </div>
-          <div className="rounded-xl border border-[#0050C3]/20 bg-[#12203A] p-5 text-center">
-            <p className="text-3xl font-bold text-[#00A3E0]">40–60%</p>
-            <p className="mt-1 text-sm text-[#6B7F99]">Compradores nuevos en el evento</p>
-          </div>
-        </div>
-        
         <div className="flex items-start gap-4 rounded-xl border border-[#0050C3]/20 bg-[#12203A] p-6">
           <Lightbulb className="h-6 w-6 flex-shrink-0 text-[#0050C3]" />
           <p className="text-[#B8C9E0]">

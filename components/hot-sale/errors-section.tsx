@@ -3,7 +3,7 @@ import { AlertTriangle, Shield } from "lucide-react"
 const errors = [
   {
     error: "Arrancar por el descuento sin propuesta de valor.",
-    prevention: "Definí tu diferencial primero. El descuento real en HS 2025 fue solo 0,7-2,9%. Lo que convierte es cuotas + envío gratis + percepción de exclusividad."
+    prevention: "Definí tu diferencial primero. Lo que convierte es cuotas + envío gratis + percepción de exclusividad."
   },
   {
     error: "Romper la experiencia por falta de stock o precios inflados.",

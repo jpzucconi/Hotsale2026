@@ -1,4 +1,4 @@
-import { Smartphone, CreditCard, Truck, MessageSquare, MessageCircle, Instagram, Search } from "lucide-react"
+import { Smartphone, CreditCard, MessageCircle, Instagram, Search } from "lucide-react"
 
 const consumerTraits = [
   {
@@ -71,43 +71,6 @@ export function MobileMockupsSection() {
           </p>
         </div>
 
-        {/* Mobile Experience */}
-        <div className="mb-12 text-center">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#0050C3]/30 bg-[#0050C3]/10 px-4 py-2">
-            <Smartphone className="h-4 w-4 text-[#0050C3]" />
-            <span className="text-sm font-medium text-[#B8C9E0]">Experiencia Mobile-First</span>
-          </div>
-          <h2 className="mb-4 text-2xl font-bold text-white sm:text-3xl lg:text-4xl text-balance">
-            El 75% de las compras Hot Sale son mobile
-          </h2>
-          <p className="mx-auto max-w-2xl text-[#B8C9E0]">
-            En Tiendanube llega al 81%. Tu Tiendanube está optimizada para convertir con un checkout hasta 4x más rápido.
-          </p>
-        </div>
-
-        <div className="grid gap-6 sm:grid-cols-3">
-          <div className="rounded-2xl border border-[#1E3A5F] bg-[#12203A]/50 p-6 text-center">
-            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[#0050C3]/20">
-              <CreditCard className="h-6 w-6 text-[#0050C3]" />
-            </div>
-            <h3 className="mb-2 font-semibold text-white">Pago Nube</h3>
-            <p className="text-sm text-[#6B7F99]">Hasta 18 cuotas sin interés. Comisión 0% de Tiendanube sobre ventas procesadas.</p>
-          </div>
-          <div className="rounded-2xl border border-[#1E3A5F] bg-[#12203A]/50 p-6 text-center">
-            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[#0050C3]/20">
-              <Truck className="h-6 w-6 text-[#0050C3]" />
-            </div>
-            <h3 className="mb-2 font-semibold text-white">Envio Nube</h3>
-            <p className="text-sm text-[#6B7F99]">Tarifas competitivas que hacen viable el envío gratis. Impresión masiva de etiquetas.</p>
-          </div>
-          <div className="rounded-2xl border border-[#1E3A5F] bg-[#12203A]/50 p-6 text-center">
-            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[#0050C3]/20">
-              <MessageSquare className="h-6 w-6 text-[#0050C3]" />
-            </div>
-            <h3 className="mb-2 font-semibold text-white">Chat Nube</h3>
-            <p className="text-sm text-[#6B7F99]">IA que atiende 24/7 con tu voz de marca. Respuesta en menos de 15 min durante el evento.</p>
-          </div>
-        </div>
       </div>
     </section>
   )

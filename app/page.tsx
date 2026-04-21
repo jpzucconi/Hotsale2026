@@ -3,7 +3,6 @@ import { HeroSection } from "@/components/hot-sale/hero-section"
 import { StatsSection } from "@/components/hot-sale/stats-section"
 import { MindsetSection } from "@/components/hot-sale/mindset-section"
 import { TrendsSection } from "@/components/hot-sale/trends-section"
-import { DecisionMatrix } from "@/components/hot-sale/decision-matrix"
 import { OfferAnatomy } from "@/components/hot-sale/offer-anatomy"
 import { PhasesSection } from "@/components/hot-sale/phases-section"
 import { CartRescueSection } from "@/components/hot-sale/cart-rescue-section"
@@ -24,7 +23,6 @@ export default function HotSalePage() {
       <MobileMockupsSection />
       <MindsetSection />
       <TrendsSection />
-      <DecisionMatrix />
       <OfferAnatomy />
       <PhasesSection />
       <CartRescueSection />
