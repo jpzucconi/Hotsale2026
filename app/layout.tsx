@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
-import { AuthGate } from '@/components/auth-gate'
 import './globals.css'
 
 const inter = Inter({ 
@@ -40,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`dark ${inter.variable}`}>
       <body className="font-sans antialiased bg-background text-foreground">
-        <AuthGate>{children}</AuthGate>
+        {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

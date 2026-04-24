@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Flame, Calendar, ArrowRight, Sparkles, Timer } from "lucide-react"
+import { Flame, Calendar, ArrowRight, Timer } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const HOT_SALE_START = new Date("2026-05-11T03:00:00Z") // May 11, 2026 00:00 ART (UTC-3)
@@ -156,15 +156,6 @@ export function HeroSection() {
                 Ver la Guía Completa
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
               </span>
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-[#1E3A5F] bg-transparent px-8 py-6 text-base font-semibold text-white hover:bg-[#12203A] hover:text-white"
-              onClick={() => document.getElementById('stats')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              <Sparkles className="mr-2 h-5 w-5 text-[#0050C3]" />
-              Ver Resultados 2025
             </Button>
           </div>
         </div>

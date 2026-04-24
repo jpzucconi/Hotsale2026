@@ -1,6 +1,5 @@
 import { Header } from "@/components/hot-sale/header"
 import { HeroSection } from "@/components/hot-sale/hero-section"
-import { StatsSection } from "@/components/hot-sale/stats-section"
 import { MindsetSection } from "@/components/hot-sale/mindset-section"
 import { TrendsSection } from "@/components/hot-sale/trends-section"
 import { OfferAnatomy } from "@/components/hot-sale/offer-anatomy"
@@ -19,7 +18,6 @@ export default function HotSalePage() {
     <main className="min-h-screen">
       <Header />
       <HeroSection />
-      <StatsSection />
       <MobileMockupsSection />
       <MindsetSection />
       <TrendsSection />

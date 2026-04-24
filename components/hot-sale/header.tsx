@@ -5,7 +5,6 @@ import Image from "next/image"
 import { cn } from "@/lib/utils"
 
 const navLinks = [
-  { href: "#stats", label: "Resultados 2025" },
   { href: "#trends", label: "Tendencias" },
   { href: "#offers", label: "Ofertas" },
   { href: "#phases", label: "Plan de Acción" },
