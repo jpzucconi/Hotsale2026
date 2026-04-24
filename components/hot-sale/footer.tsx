@@ -7,9 +7,9 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <Image
             src="/logo-tiendanube-evolucion/logo.png"
-            alt="Tiendanube Evolución"
-            width={150}
-            height={38}
+            alt="Tiendanube"
+            width={200}
+            height={34}
           />
           
           <p className="text-center text-sm text-[#6B7F99]">

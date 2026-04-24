@@ -45,9 +45,9 @@ export function SplashScreen() {
         <div className="mb-10 text-center">
           <Image
             src="/logo-tiendanube-evolucion/logo.png"
-            alt="Tiendanube Evolución"
-            width={280}
-            height={70}
+            alt="Tiendanube"
+            width={350}
+            height={60}
             className="mb-6 mx-auto"
             priority
           />

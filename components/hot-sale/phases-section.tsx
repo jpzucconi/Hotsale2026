@@ -105,7 +105,7 @@ const phases = [
 
 const calendar = [
   {
-    day: "DÍA 1 — Domingo 11",
+    day: "DÍA 1 — Lunes 11",
     label: "Lanzamiento",
     color: "bg-[#0050C3]",
     slots: [
@@ -117,7 +117,7 @@ const calendar = [
     ]
   },
   {
-    day: "DÍA 2 — Lunes 12",
+    day: "DÍA 2 — Martes 12",
     label: "Momentum",
     color: "bg-[#00A3E0]",
     slots: [
@@ -129,7 +129,7 @@ const calendar = [
     ]
   },
   {
-    day: "DÍA 3 — Martes 13",
+    day: "DÍA 3 — Miércoles 13",
     label: "Última oportunidad",
     color: "bg-[#0050C3]",
     slots: [

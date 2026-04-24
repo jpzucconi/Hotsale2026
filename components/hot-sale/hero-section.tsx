@@ -35,7 +35,7 @@ export function HeroSection() {
   useEffect(() => setMounted(true), [])
 
   return (
-    <section className="relative overflow-hidden bg-[#0A1628] py-24 lg:py-36">
+    <section className="relative overflow-hidden bg-[#0A1628] pt-32 pb-24 lg:pt-44 lg:pb-36">
       {/* Animated gradient background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(0,80,195,0.3),transparent)]" />
       
